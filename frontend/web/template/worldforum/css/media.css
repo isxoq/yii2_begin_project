@@ -1,0 +1,293 @@
+
+/* Media */
+@media only screen and (max-width: 1024px) {
+    .galery-all .overlay {
+        font-size: 0.7em;
+    }
+    .navbar>.container {
+        height: 50px;
+    }
+    img#logo {
+        width: 70px;
+    }
+    .navbar-toggler-icon {
+        width: 0.8em;
+        height: 1em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    img#logo {
+        width: 75px;
+    }
+    .carousel-caption {
+        bottom: -4em;
+    }
+    .our-works {
+        padding: 20px 10px;
+    }
+    .universities-logo img {
+        max-width: 120px;
+        margin-right: 25px;
+    }
+    .row-cols-md-4>* {
+        width: 50%;
+        display: block;
+        margin: 12px auto;
+    }
+    .social-links a i {
+        font-size: 2em;
+        margin-right: 3px;
+    }
+    .col-md-3.icons-size h3 {
+        margin-bottom: 25px;
+    }
+    .col-md-3 img {
+        width: 150px;
+    }
+    footer p {
+        text-align: center;
+    }
+    .col-md-3.icons-size>p {
+        font-size: 0.7em;
+    }
+    .galery-all .overlay {
+        font-size: 1.3em;
+    }
+    .sign-div {
+        width: 90%;
+    }
+    .sign-up input {
+        padding: 10px 5px;
+        font-size: 16px;
+        width: 75%;
+    }
+    .about-program img {
+        width: 100%;
+        height: auto;
+    }
+    .about-program {
+        padding: 15px 10px;
+        text-align: justify;
+    }
+    .col-md-3 {
+        text-align: left;
+        display: inline-block;
+        width: 50%;
+    }
+    .col-md-3 img {
+        width: 155px;
+    }
+    .col-md-3:first-child {
+        text-align: center;
+    }
+    .col-md-3 p {
+        font-size: 0.7em;
+    }
+    
+    .col-md-3.in-map iframe {
+        height: 180px;
+        margin-top: 20px;   
+    }
+    .social-links a i {
+        font-size: 1.7em;
+    }
+    .col-md-3.icons-size>p {
+        line-height: 16px;
+        font-size: 9px;
+    }
+    
+}
+@media only screen and (max-width: 426px) {
+    .navbar-light .navbar-toggler-icon {
+        filter: invert(1);
+    }
+    .carousel-caption {
+        padding-bottom: 4em;  
+    }
+    .row-cols-md-4>* {
+        width: 100%;
+    }
+    .banner-text {
+        padding-top: 10%;
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .banner-text h1 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.767);
+    }
+    .container-fluid.banner-img {
+        background: url(../images/banner.jpg) no-repeat left;
+        background-size: cover;
+    }
+    .banner-text h2 {
+        background-color: #2c3e50b7;
+        color: #fff;
+        padding: 8px;
+        display: inline-block;
+        font-size: 1.5em;
+        margin: 10px 0px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+        padding-right: 15px;
+    }
+    .navbar-collapse {
+        background-color: #6c6868bd;
+        border-radius: 15px;
+        line-height: 22px;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+    .banner-text>button {
+        font-size: 1.1em;
+    }
+    .banner-text .span {
+        font-size: 2.4em;
+    }
+    .our-works {
+        padding: 10px 5px;
+    }
+    .our-works h1 {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    .our-works h5 {
+        font-size: 1em;
+    }
+    
+    .col-md-4 h5, .col-md-4 p {
+        text-align: left;
+    }
+    .col-md-4 {
+        margin-bottom: 1.5em;
+    }
+    .col-md-4 p {
+        font-size: 0.8em;
+    }
+    .col-md-4 img {
+        width: 90px;
+        float: left;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .col-md-4 .num {
+        top: -25px;
+        left: 0px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .our-more p {
+        background-color: #5a5a723b;
+        color: #000;
+        padding: 10px;
+        line-height: 1.5em;
+        border-radius: 10px;
+        margin: 5px 0;
+        font-size: 0.7em;
+    }
+    .our-more>button {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .our-more .free-btn {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .col-md-4:last-child {
+        margin-bottom: 0.5em;
+    }
+    .our-universities .university-text {
+        width: 95%;
+    }
+    .university-text h4 {
+        font-size: 1.2em;
+    }
+    .our-universities img {
+        height: auto;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+    
+    .universities-logo img {
+        max-width: 130px;
+        height: 130px;
+    }
+    .h-100 {
+        width: 95%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .top-questions {
+        width: 100%;
+    }
+    .bg-light {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .galery-all .overlay {
+        font-size: 0.8em;
+    }
+    .sign-up input {
+        font-size: 15px;
+    }
+    .about-program img {
+        width: 100%;
+        height: auto;
+    }
+    #copyright {
+        font-size: 0.6em;
+    }
+    #copy-size {
+        line-height: 1em;
+    }
+    .username, .password {
+        padding-left: 20px;
+    }
+    .username, .password i {
+        font-size: 15px;
+    }
+    .sign-up input {
+        font-size: 13px;
+    }
+    
+}
+@media only screen and (max-width: 390px) {
+    footer img {
+        width: 100px;
+    }
+    .row-cols-md-4>* {
+        width: 90%;
+    }
+    .universities-logo img {
+        width: 110px;
+        height: 110px;
+
+    }
+    .sign-up input {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 337px) {
+    .universities-logo img {
+        width: 70px;
+        height: 70px;
+        margin-right: 8px;
+    }
+    .sign-up input {
+        font-size: 7px;
+    }
+}
