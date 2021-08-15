@@ -1,1 +1,1 @@
-# Automated Consulting center by iSoft 
+# Yii2 begin Project by Isxoqjon Axmedov
